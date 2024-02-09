@@ -1,5 +1,21 @@
 body {
   font-family: Gill Sans, sans-serif;
-  background-color: salmon;
+  background-color: rgb(61, 85, 64);
   text-align: center;
+  margin: 0;
+}
+
+.landing img{
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+}
+.landing__text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(227, 255, 239);
+  font-size: 40px;
 }
