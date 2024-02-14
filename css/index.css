@@ -36,6 +36,16 @@ body {
   object-fit: cover;
 }
 
+.animals h3{
+  color: rgb(198, 236, 185);
+  size: 40px;
+}
+
 .animal-link{
   flex: 1;
+}
+
+.animal-link a{
+  color: rgb(247, 255, 239);
+  text-decoration: none;
 }
